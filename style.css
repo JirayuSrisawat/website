@@ -240,6 +240,10 @@ img.logo {
   text-align: center;
 }
 
+.lavalink p {
+  font-size: 18px;
+}
+
 @keyframes rainbow {
   0% {
     border-color: hsl(0, 100%, 50%);
