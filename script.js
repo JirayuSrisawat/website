@@ -223,7 +223,7 @@ function getLavalinkStats() {
       },
     },
   ];
-
+  updateLavalink();
   axios
     .get("http://t-us.odd.gay:25994/api/v1/stats/lavalink")
     .then((res) => {
@@ -231,7 +231,7 @@ function getLavalinkStats() {
 
       updateLavalink();
     })
-    .catch((e) => alert(e));
+    .catch((e) => console.error(e));
 }
 
 function TimerInterval() {
