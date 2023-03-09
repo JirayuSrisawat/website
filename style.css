@@ -208,7 +208,8 @@ img.logo {
 
 /* Stats */
 
-.lavalink-t {
+.lavalink-t,
+.monitor-t {
   color: #ffffff;
   display: flex;
   justify-content: center;
@@ -219,13 +220,22 @@ img.logo {
 }
 
 .lavalinks {
+  padding-bottom: 70px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 20px;
+  border-bottom: 1px solid #ffffff;
+}
+
+.monitors {
   margin-bottom: 70px;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   grid-gap: 20px;
 }
 
-.lavalink {
+.lavalink,
+.monitor {
   background: #1f1f1f;
   border-radius: 25px;
   border: 1px solid #ffffff;
@@ -233,14 +243,24 @@ img.logo {
   padding: 20px;
 }
 
-.lavalink-head {
+.lavalink-head{
   display: flex;
   justify-content: center;
   margin: 0 auto;
   text-align: center;
 }
 
-.lavalink p {
+.monitor-head {
+  margin-bottom: 25px !important;
+  font-size: 1.5rem !important;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.lavalink p,
+.monitor p {
   font-size: 18px;
 }
 
