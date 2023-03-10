@@ -135,6 +135,7 @@ img.logo {
   font-weight: 600;
   font-size: 3rem;
   animation: text-rainbow 5s infinite alternate;
+  padding: 20px;
 }
 
 /* Projects */
@@ -262,6 +263,28 @@ img.logo {
 .lavalink p,
 .monitor p {
   font-size: 18px;
+}
+
+/* About me */
+
+.about-me {
+  border-top: 1px solid #ffffff;
+  padding: 20px;
+}
+
+.aboutme-t {
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.aboutme {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: 0 auto;
 }
 
 @keyframes rainbow {
