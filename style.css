@@ -207,64 +207,6 @@ img.logo {
   color: rgba(255, 84, 255, 1);
 }
 
-/* Stats */
-
-.lavalink-t,
-.monitor-t {
-  color: #ffffff;
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  margin: 0 auto;
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
-
-.lavalinks {
-  padding-bottom: 70px;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  grid-gap: 20px;
-  border-bottom: 1px solid #ffffff;
-}
-
-.monitors {
-  margin-bottom: 70px;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  grid-gap: 20px;
-}
-
-.lavalink,
-.monitor {
-  background: #1f1f1f;
-  border-radius: 25px;
-  border: 1px solid #ffffff;
-  margin: 10px;
-  padding: 20px;
-}
-
-.lavalink-head{
-  display: flex;
-  justify-content: center;
-  margin: 0 auto;
-  text-align: center;
-}
-
-.monitor-head {
-  margin-bottom: 25px !important;
-  font-size: 1.5rem !important;
-  display: flex;
-  justify-content: center;
-  margin: 0 auto;
-  text-align: center;
-}
-
-.lavalink p,
-.monitor p {
-  font-size: 18px;
-}
-
 /* About me */
 
 .about-me {
@@ -289,18 +231,18 @@ img.logo {
 
 @keyframes rainbow {
   0% {
-    border-color: hsl(0, 100%, 50%);
+    border-color: hsl(0, 100%, 75%);
   }
   100% {
-    border-color: hsl(255, 100%, 50%);
+    border-color: hsl(255, 100%, 75%);
   }
 }
 
 @keyframes text-rainbow {
   0% {
-    color: hsl(0, 100%, 50%);
+    color: hsl(0, 100%, 75%);
   }
   100% {
-    color: hsl(255, 100%, 50%);
+    color: hsl(255, 100%, 75%);
   }
 }
